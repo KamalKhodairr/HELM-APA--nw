@@ -1,5 +1,5 @@
 import { Navbar } from "@/components/navigation/navbar"
-import { HeroSection } from "@/components/hero/hero-section"
+import { HeroSectionSimple } from "@/components/hero/hero-section-simple"
 import { ProblemSection } from "@/components/sections/problem-section"
 import { SolutionSection } from "@/components/sections/solution-section"
 import { ProcessSection } from "@/components/sections/process-section"
@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Navbar />
       <main id="main-content" className="relative">
-        <HeroSection />
+        <HeroSectionSimple />
         <ProblemSection />
         <SolutionSection />
         <ProcessSection />
