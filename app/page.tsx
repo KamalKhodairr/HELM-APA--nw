@@ -3,6 +3,8 @@ import { HeroSectionSimple } from "@/components/hero/hero-section-simple"
 import { ProblemSection } from "@/components/sections/problem-section"
 import { SolutionSection } from "@/components/sections/solution-section"
 import { ProcessSection } from "@/components/sections/process-section"
+import { AboutSection } from "@/components/sections/about-section"
+import { ContactSection } from "@/components/sections/contact-section"
 import { Footer } from "@/components/footer/footer"
 import { StickyCTA } from "@/components/ui/sticky-cta"
 
@@ -15,6 +17,8 @@ export default function Home() {
         <ProblemSection />
         <SolutionSection />
         <ProcessSection />
+        <AboutSection />
+        <ContactSection />
       </main>
       <Footer />
       <StickyCTA />

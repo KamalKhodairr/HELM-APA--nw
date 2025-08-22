@@ -13,7 +13,7 @@ const problemIcons = {
 
 export function ProblemSection() {
   return (
-    <section id="problems" className="py-24 relative overflow-hidden">
+    <section id="problem" className="py-24 relative overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-surface/20 to-transparent" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(0,194,255,0.1),transparent_50%)]" />

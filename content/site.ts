@@ -67,8 +67,8 @@ export const siteContent = {
     logo: "HELM",
     links: [
       { label: "Home", href: "#home" },
+      { label: "Problem", href: "#problem" },
       { label: "Solutions", href: "#solutions" },
-      { label: "Process", href: "#process" },
       { label: "About", href: "#about" },
       { label: "Contact", href: "#contact" },
     ],

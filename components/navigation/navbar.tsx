@@ -27,10 +27,14 @@ export function Navbar() {
   }, [])
 
   const scrollToSection = (sectionId: string) => {
+    console.log("[v0] Scrolling to section:", sectionId)
     const element = document.getElementById(sectionId.replace("#", ""))
     if (element) {
       element.scrollIntoView({ behavior: "smooth" })
       setMobileMenuOpen(false)
+      console.log("[v0] Successfully scrolled to:", sectionId)
+    } else {
+      console.log("[v0] Element not found:", sectionId)
     }
   }
 
