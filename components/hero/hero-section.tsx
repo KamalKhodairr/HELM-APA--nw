@@ -14,6 +14,8 @@ export function HeroSection() {
   const [reducedMotion, setReducedMotion] = useState(false)
 
   useEffect(() => {
+    if (typeof window === "undefined") return
+
     const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)")
     setReducedMotion(mediaQuery.matches)
 
@@ -26,6 +28,8 @@ export function HeroSection() {
   }, [])
 
   const scrollToProcess = () => {
+    if (typeof window === "undefined") return
+
     const element = document.getElementById("process")
     if (element) {
       element.scrollIntoView({ behavior: "smooth" })
